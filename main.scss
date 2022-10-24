@@ -1,0 +1,634 @@
+$warning: #3edc99;
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+//btn 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.btn-outline-warning {
+  --bs-btn-active-color: white;
+}
+.btn {
+  --bs-btn-bg: 		#F2F4F4;
+}
+
+ul .btn {
+  --bs-btn-bg: 		white;
+}
+
+.cardKosten {
+  width: 450px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kosten {
+  margin-left: auto;
+  margin-right: auto;
+}
+// .dir .button {
+//   border: none;
+//   background: transparent;
+// }
+
+.form-range::-webkit-slider-thumb {
+    background-color: #3edc99;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #3edc99;
+}
+
+.form-range {
+  min-width: 425px;
+  max-width: 425px;
+}
+.list-group {
+  min-width: 425px;
+  max-width: 425px;
+}
+
+.range-labels {
+  min-width: 425px;
+  max-width: 425px;
+}
+
+.range {
+  margin-top: -90px;
+}
+
+
+// .form-range::-webkit-slider-thumb:active {
+//     background-color: #fcb900;
+// }
+
+// .form-range::-webkit-slider-runnable-track {
+//     background-color: #fcb900;
+// }
+
+// .form-range::-moz-range-thumb:active {
+//     background-color: #fcb900;
+//   }
+
+// .form-range::-moz-range-track {
+//     background-color: #fcb900;
+// }
+
+
+
+// .angle-wrapper {
+//   position: relative;
+//   display: flex;
+//   height: 100%;
+//   bottom: -25px;
+//   margin-top: 185px;
+//   margin-left: 150px;
+//   transform: translate(-50%, -50%);
+//   width: 200px;
+//   height: 200px;
+// }
+
+//Compass
+.rangeNav1 {
+  text-align: center;
+  position: relative;
+}
+
+.dirName {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 15px;
+}
+
+#N {
+  position: absolute;
+  left: -1.5%;
+}
+
+#NO {
+  position: absolute;
+  left: 10.5%;
+}
+
+#O {
+  position: absolute;
+  left: 25.75%;
+}
+
+#SO {
+  position: absolute;
+  left: 38%;
+}
+
+#S {
+  position: absolute;
+  left: 53.25%;
+}
+
+#SW {
+  position: absolute;
+  left: 65.75%;
+}
+
+#W {
+  position: absolute;
+  left: 80.75%;
+}
+
+#NW {
+  position: absolute;
+  left: 94%;
+}
+
+  .circle-wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 165px;
+    margin-bottom: -35px;
+    margin-left: 42%;
+  }
+  
+  .dot-container {
+    top: -100px;
+    left: -95px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .dot {
+    left: 100.2px;
+    top: 99.95px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    height: 2px;
+    width: 2px;
+    border-radius: 100%;
+    color: red;
+    border: solid 2px;
+  }
+  
+  .sm-circle {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    color: #ECECEC;
+    border: solid 10px;
+    border-radius: 100%;
+    z-index: -1000;
+  }
+  
+  .lg-circle {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: #DBDBDB;
+    border: solid 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: -100;
+  }
+
+  
+  .triangle-down {
+    transform-origin: bottom center;
+    position: absolute;
+    rotate: 0deg;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 100px solid rgba(62, 220, 153, 0.7);
+    top: -100px;
+    left: -45px;
+    transition: .3s;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .dir {
+    display: flex;
+    position: relative;
+  }
+  
+  .N {
+    color: #0275d8;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -5px;
+    background: white;
+    border: none;
+  }
+  
+  .S {
+    color: red;
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -5px;
+    background: white;
+    border: none;
+  }
+  
+  .O {
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 122px;
+    background: white;
+    border: none;
+  }
+  
+  .W {
+    position: absolute;
+    margin-top: -13px;
+    margin-left: -140px;
+    background: white;
+    border: none;
+  }
+  
+  .NO {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 85px;
+    background: white;
+    border: none;
+  }
+  
+  .SO {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 85px;
+    background: white;
+    border: none;
+  }
+  
+  .SW {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -110px;
+    background: white;
+    border: none;
+  }
+  
+  .NW {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -110px;
+    background: white;
+    border: none;
+  }
+
+
+
+
+  //Winkel
+  .angle-wrapper {
+    position: relative;
+    height: 100%;
+    margin-top: 165px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+  }
+  .degName {
+    position: relative;
+    background: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+  #deg0 {
+    left: -1.5%;
+    position: absolute;
+  }
+  #deg15 {
+    position: absolute;
+    left: 14.2%;
+  }
+  #deg30 {
+    position: absolute;
+    left: 29.5%;
+  }
+  #deg45 {
+    position: absolute;
+    left: 45.5%;
+  }
+  #deg60 {
+    position: absolute;
+    left: 62%;
+  }
+  #deg75 {
+    position: absolute;
+    left: 78%;
+  }
+  #deg90 {
+    position: absolute;
+    left: 95%;
+  }
+  
+  .angle {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    background: #D7DBDD;
+    border: 6px solid black;
+    border-top-right-radius: 100%;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    opacity: 0.1;
+  }
+
+  .angle-dir-wrapper {
+    transform-origin: bottom left;
+    position: absolute;
+    background-color: transparent;
+    width: 180px;
+    height: 180px;
+    border-top-right-radius: 100%;
+    left: 10px;
+    top: -6px;
+    overflow: hidden;
+  }
+
+  .angle-dir-fade {
+    transform-origin: bottom left;
+    position: absolute;
+    background: #3edc99;
+    opacity: 0.4;
+    width: 163px;
+    height: 167px;
+    border-top-right-radius: 100%;
+    left: 6px;
+    top: 13px;
+    rotate: 90deg;
+    transition: 0.3s;
+  }
+  
+  .sun1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fcb900;
+    border-radius: 100%;
+    top: -4%;
+    left: 70%;
+    opacity: .08;
+  }
+  .sun2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fcb900;
+    border-radius: 100%;
+    top: 0%;
+    left: 75%;
+    opacity: .1;
+  }
+  
+  .sun-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #fcb900;
+    opacity: 0.7;
+    top: 5%;
+    left: 80%;
+    z-index: 1000;
+  }
+  
+  .angleDir {
+    transform-origin: bottom center;
+    position: absolute;
+    overflow: hidden;
+    height: 110px;
+    width: 7px;
+    background: 	#0d6efd;
+    top: 67px;
+    left: 7px;
+    border-radius: 50px;
+    rotate: 90deg;
+    transition: 0.3s;
+  }
+  
+  .Y {
+    position: absolute;
+    top: -30px;
+  }
+  
+  .X {
+    position: absolute;
+    top: 80%;
+    left: 100%;
+  }
+  
+
+
+  //Slider
+
+  .form-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: #D7DBDD;
+    border-color: transparent;
+    border-radius: 1rem;
+  }
+
+  .form-range::-webkit-slider-thumb:active {
+    background-color: #3edc99;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+    margin-top: -0.25rem;
+    background-color: #3edc99;
+    border: 0;
+    border-radius: 1rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    appearance: none;
+  }
+
+  @media screen and (max-width: 390px) {
+    .containerX {
+      margin-left: -7px;
+      width: 385px;
+    }
+
+    .dot {
+      left: 100.2px;
+      top: 99.95px;
+      transform: translate(-50%, -50%);
+      position: relative;
+      height: 2px;
+      width: 2px;
+      border-radius: 100%;
+      color: red;
+      border: solid 2px;
+    }
+
+    .dir {
+      left: 20px;
+    }
+    .circle-container {
+      width: 330px;
+      height: 390px;
+      display: flex;
+      margin-left: -65px;
+    }
+    .circle-wrapper {
+    position: absolute;
+    width: 252px;
+    height: 100px;
+    margin-top: 165px;
+    margin-bottom: -35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dot-container {
+    top: -100px;
+    left: -95px;
+    margin-left: 20px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+    .form-range {
+      min-width: 315px;
+      max-width: 315px;
+    }
+    .list-group {
+      min-width: 315px;
+      max-width: 315px;
+    }
+    
+    .range-labels {
+      min-width: 315px;
+      max-width: 315px;
+    }
+
+    .dirName {
+      left: -20px;
+    }
+    .dirRange {
+      margin-left: -10px;
+    }
+    .degName {
+      left: -20px;
+    }
+    .degRange {
+      margin-left: -5px;
+    }
+
+    .cardKosten {
+      width: 361px;
+    }
+    .img {
+      margin-left: -20px
+    }
+  }
+
+  @media screen and (min-width: 391px) {
+    .cardKosten {
+      width: 450px;
+    }
+  }
+
+
+  @media screen and (min-width: 576px) {
+    .cardKosten {
+      width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .circle-wrapper {
+      margin-left: 45%;
+    }
+    .form-range {
+      min-width: 500px;
+      max-width: 500px;
+    }
+    .list-group {
+      min-width: 500px;
+      max-width: 500px;
+    }
+    
+    .range-labels {
+      min-width: 500px;
+      max-width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .form-range {
+      min-width: 550px;
+      max-width: 550px;
+    }
+    .list-group {
+      min-width: 550px;
+      max-width: 550px;
+    }
+    
+    .range-labels {
+      min-width: 550px;
+      max-width: 550px;
+    }
+    .cardKosten {
+      width: 550px;
+    }
+  }
+
+
+  @media screen and (min-width: 1200px) {
+    .cardKosten {
+      margin-left: -125px;
+      width: 500px;
+    }
+  }
+
+
+  @media screen and (min-width: 1400px) {
+    .cardKosten {
+      width: 550px;
+    }
+    .form-range {
+      min-width: 600px;
+      max-width: 600px;
+    }
+    .list-group {
+      min-width: 600px;
+      max-width: 600px;
+    }
+    
+    .range-labels {
+      min-width: 600px;
+      max-width: 600px;
+    }
+    .cardKosten {
+      width: 550px;
+    }
+  }
